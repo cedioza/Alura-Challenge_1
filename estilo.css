@@ -1,0 +1,50 @@
+body
+{
+    width: 100%;
+    background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main > h1
+{
+    color: #b92b27;
+}
+main > button
+{
+    background-color: #1565C0;
+    margin: 5px;
+    border-radius: 3em;
+    font-size: 2em;
+    
+}
+
+main > button:hover
+{
+    background-color: #b92b27;
+}
+
+main > input
+{
+    background-color: #1565C0;
+    margin: 5px;
+    border-radius: 3em;
+    font-size: 2em;
+}
+
+main > textarea
+{
+    background-color: #1565C0;
+    margin: 2px;
+    border-radius: 2em;
+    font-size: 2em;
+    text-align: center;
+}
