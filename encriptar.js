@@ -27,11 +27,8 @@ function desencriptador()
  }
  else
  {
-    texto_desencriptado=texto_desencriptado.replaceAll('enter','e');
-    texto_desencriptado=texto_desencriptado.replaceAll('imes','i');
-    texto_desencriptado=texto_desencriptado.replaceAll('ai','a');
-    texto_desencriptado=texto_desencriptado.replaceAll('ufat','u');
-    texto_desencriptado=texto_desencriptado.replaceAll('ober','o');
+    texto_desencriptado=texto_desencriptado.replaceAll('enter','e').replaceAll('imes','i').replaceAll('ai','a').replaceAll('ufat','u').replaceAll('ober','o');
+
     resultado.value=texto_desencriptado;
  }
 
@@ -47,11 +44,7 @@ function encriptador()
     }
     else
     {
-        texto_encriptado=texto_encriptado.replaceAll('e','enter');
-        texto_encriptado=texto_encriptado.replaceAll('i','imes');
-        texto_encriptado=texto_encriptado.replaceAll('a','ai');
-        texto_encriptado=texto_encriptado.replaceAll('u','ufat');
-        texto_encriptado=texto_encriptado.replaceAll('o','ober');
+        texto_encriptado=texto_encriptado.replaceAll('e','enter').replaceAll('i','imes').replaceAll('a','ai').replaceAll('u','ufat').replaceAll('o','ober');
     }
     
 
